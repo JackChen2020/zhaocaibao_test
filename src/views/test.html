@@ -1,0 +1,36 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>傲银支付</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <div class="row" style="margin:15px;">
+        <div class="col-md-12">
+            <form class="form-inline" method="post" action="http://www.vzzfrb.cn/Pay_Index.html">
+                <input type="hidden" name="pay_amount" value="500.00">
+                <input type="hidden" name="pay_applydate" value="2019-06-15 20:39:54">
+                <input type="hidden" name="pay_bankcode" value="904">
+                <input type="hidden" name="pay_callbackurl" value="http://allwin6666.com/pay/#/juli">
+                <input type="hidden" name="pay_memberid" value="190623841">
+                <input type="hidden" name="pay_notifyurl" value="http://allwin6666.com/api/lastpass/tianyi_callback">
+                <input type="hidden" name="pay_orderid" value="36873">
+                <input type="hidden" name="pay_md5sign" value="5AD2FCC617C4294D01357B9148C0D4B6">
+                <input type="hidden" name="pay_productname" value="商品">
+                <button type="submit" class="btn btn-primary btn-lg">支付宝支付(金额：500.00元)</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
